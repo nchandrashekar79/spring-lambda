@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "routeKey": "GET /hello",
+  "rawPath": "/hello",
+  "rawQueryString": "",
+  "headers": {
+    "host": "example.execute-api.local"
+  },
+  "requestContext": {
+    "http": {
+      "method": "GET",
+      "path": "/hello",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "127.0.0.1",
+      "userAgent": "sam-local"
+    },
+    "routeKey": "GET /hello",
+    "stage": "$default"
+  },
+  "isBase64Encoded": false
+}
